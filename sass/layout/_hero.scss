@@ -1,0 +1,54 @@
+.hero{
+    padding: 200px 0px;
+    text-align: center;
+}
+.overlay{
+    max-width: 1600px;
+    height: 600px;
+    margin: auto;
+   background-color: #C4C4C4;;
+    background-image: linear-gradient(
+        to right,
+         rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4) ),url(../img/bgi.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+}
+.title-block_text{
+    width: 693px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.title-block_text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    
+}
+
+
+.button-blue{
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color:var(--white-color);
+    background: var(--brand-color);
+    padding: 10px 32px;
+    cursor: pointer; 
+    transition: background-color var(--transition-color), color var(--transition-color);
+   
+}
+
+ .button-menu_blue{
+    background: var(--brand-color);
+
+    color: var(--white-color);
+ }

@@ -1,0 +1,45 @@
+.add-to-us-title{
+    width: 144px;
+    height: 16px;
+}
+
+
+ .add-to-us-link{
+    display: block;
+    padding: 12px;
+    width: 44px;
+    height:44px;
+    border-radius: 50%;
+    color: var(--white-color);
+    background: rgba(255, 255, 255, 0.1);
+    &:hover,
+    &:focus{
+        background-color:var(--brand-color);
+       
+     }
+}
+
+.add-to-us-list{
+    display: flex;
+}
+.add-to-us-title{
+    margin-bottom: 20px;
+}
+.add-to-us{
+   
+    padding-top: 12px;
+    margin-right: 90px;
+ }
+ .add-to-us-item{
+    margin-right: 10px;
+    
+}
+.upercase-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+}

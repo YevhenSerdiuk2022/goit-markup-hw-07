@@ -1,0 +1,39 @@
+.what-we-do{
+    padding-top: 0px;
+}
+.what-we-do-wrapper{
+    position: relative;
+}
+.what-we-do-wrapper::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 370px;
+	height: 70px;
+	left: 0;
+	bottom: 0;
+   opacity: 1;
+    background: rgba(47, 48, 58, 0.8);
+}
+.what-we-do__title{
+    color: var(--white-color);
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    padding: 27px 82px; 
+   
+}
+.what-we-do__list, .our-team__list{
+    display: flex;
+}
+.what-we-do__item:not(:last-child),.our-team__item:not(:last-child) {
+    margin: 0px 30px 0px 0px;
+}
+.block-text__title{
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--fonts-title-color);
+    text-align: center;
+    margin-bottom: 50px;
+}

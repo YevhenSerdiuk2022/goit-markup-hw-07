@@ -1,0 +1,35 @@
+.button-menu{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background: var(--background-fon-button);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 22px;
+   transition: color var(--transition-color);
+   
+}
+.menu__button-list{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 50px;
+}
+.menu__button-item:not(:last-child){
+    margin: 0px 8px 0px 0px;
+}
+.button-blue:hover, .button-blue:focus, .button-blue:active,
+.contact-form-submit:hover, .contact-form-submit:focus,.contact-form-submit:focus{
+    background:#085fa7;
+   
+}
+
+ .button-menu:hover,.button-menu:focus{
+    background: var(--brand-color);
+    color: var(--white-color);
+   
+ }
+ .blue{
+    background-color: var(--brand-color);
+    color:var(--white-color);
+}
