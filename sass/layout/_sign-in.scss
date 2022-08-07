@@ -1,17 +1,22 @@
-.sign-in{
-    width: 585px;
+.footer__sign-in{
+   
+    width: 590px;
     padding-top: 12px;
 }
-.sign-in__title{
+.footer__sign-in__title{
     margin-bottom: 20px;
 }
-.sign-in-wrapper{
-display: flex;
+.footer__contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.footer__sign-in__wrapper{
+    display: flex;
 }
 
 
 .sign-in-input{
-    width: 357px;
+    width: 356px;
     height: 50px;
     margin-right: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);

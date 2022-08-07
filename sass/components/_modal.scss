@@ -38,10 +38,7 @@
     margin-bottom: 12px;
     color: #212121;
 }
-.contact-form {
-    display: flex;
-    flex-direction: column;
-  }
+
   .contact-form-input:focus, .contact-form-message:focus {
     outline: none;
     border-color: var(--brand-color);
