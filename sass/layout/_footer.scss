@@ -5,7 +5,10 @@
     padding: 60px 0;
 }
  
- 
+.footer__address{
+    margin-right: 70px;
+    width: 231px;
+  } 
  .address, .footer__address{
      font-style: normal;
  }
@@ -15,7 +18,7 @@
      margin-bottom: 9px;
  }
 
- .footer-logo{
+ .footer__address__logo{
     display: block;
     margin-bottom: 20px;
   color:var(--white-color);
@@ -37,6 +40,6 @@
 .footer-color-link{
     fill: var(--white-color);
 }
-.footer__address{
+.footer__address__wrapper{
     display: flex;
  }

@@ -7,19 +7,19 @@
      flex-basis: calc((100% - 60px) / 3);
      border: solid 1px #EEEEEE;
  }
- .exmaple-box{
+ .exmaple__box{
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.exmaple-box-desc{
+.exmaple__box-desc{
     padding: 20px 24px; 
 }
 .elements__title-item{
     color: var(--fonts-color);
 }
-.exmaple__item-link{
+.exmaple__link{
     display: block;
     &:hover,
     &:focus{
@@ -59,7 +59,7 @@
     padding: 63px 24px;
 }
 
-.exmaple__item-link:hover .exmaple-overlay, .exmaple__item-link:focus .exmaple-overlay {
+.exmaple__link:hover .exmaple-overlay, .exmaple__link:focus .exmaple-overlay {
 	transform: translateY(0);
   }
   .elements__title{
