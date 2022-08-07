@@ -24,8 +24,8 @@
 .our-team__elements{
     padding: 0px 0px 0px 0px;
 }
-.icons-item-link:hover,.icons-item-link:hover .icon-link,
-.icons-item-link:focus,.icons-item-link:focus .icon-link {
+.our-team__icons__link:hover,.our-team__icons__link:hover .icon-link,
+.our-team__icons__link:focus,.our-team__icons__link:focus .icon-link {
     background-color:var(--brand-color);
     fill: var(--white-color);
 }
@@ -35,14 +35,14 @@
    fill: var(--fons-icon-color);
  transition: color var(--transition-color);
 }
-.icons-item{
+.our-team__icons__item{
     margin-right: 10px;
 }
 .our-team__list{
     display: flex;   
   
  }
- .icons-item-link{
+ .our-team__icons__link{
      display: block;
      padding: 12px;
      width: 44px;

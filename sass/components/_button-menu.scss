@@ -10,12 +10,12 @@
    transition: color var(--transition-color);
    
 }
-.filter__list{
+.exmaple__filter{
     display: flex;
     justify-content: center;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-.filter__item:not(:last-child){
+.exmaple__filter__item:not(:last-child){
     margin: 0px 8px 0px 0px;
 }
 .button-blue:hover, .button-blue:focus, .button-blue:active,
