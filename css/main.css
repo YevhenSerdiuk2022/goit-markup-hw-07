@@ -300,7 +300,7 @@ img {
   margin-bottom: 50px;
 }
 
-.exmaple__filter__item:not(:last-child) {
+.exmaple-filter__item:not(:last-child) {
   margin: 0px 8px 0px 0px;
 }
 
@@ -337,7 +337,7 @@ img {
   line-height: 1.2;
 }
 
-.footer__address__logo {
+.footer__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -358,11 +358,11 @@ img {
   margin-right: auto;
 }
 
-.header__nav__list {
+.header__list {
   display: flex;
 }
 
-.header__nav__item:not(:last-child) {
+.header__item:not(:last-child) {
   margin: 0px 50px 0px 0px;
 }
 
@@ -370,8 +370,8 @@ img {
   color: var(--brand-color);
 }
 
-.header__nav__link:hover, .header__address__link:hover, .grey:hover, .header__address__link:hover, .header__address__link:hover .link-icon,
-.header__nav__link:focus, .header__address__link:focus, .grey:focus, .header__address__link:focus, .header__address__link:focus .link-icon {
+.header__link:hover, .header-address__link:hover, .grey:hover, .header-address__link:hover, .header-address__link:hover .link-icon,
+.header__link:focus, .header-address__link:focus, .grey:focus, .header-address__link:focus, .header-address__link:focus .link-icon {
   color: var(--brand-color);
   fill: var(--brand-color);
 }
@@ -383,15 +383,15 @@ img {
   color: var(--fonts-title-color);
 }
 
-.header__address__list {
+.header__address {
   display: flex;
 }
 
-.header__address__item:not(:last-child) {
+.header-address__item:not(:last-child) {
   margin: 0px 50px 0px 0px;
 }
 
-.header__address__link {
+.header-address__link {
   display: flex;
   align-items: center;
 }
@@ -405,7 +405,7 @@ img {
   fill: var(--fonts-color);
 }
 
-.header__nav__link, .header__address__link {
+.header__link, .header-address__link {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2px;
@@ -413,12 +413,12 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__nav__link {
+.header__link {
   position: relative;
   display: block;
 }
 
-.header__nav__link::after {
+.header__link::after {
   position: absolute;
   content: "";
   display: block;
@@ -431,7 +431,7 @@ img {
   transform: scaleX(0);
 }
 
-.header__nav__link:hover::after {
+.header__link:hover::after {
   transform: scaleX(1);
 }
 
@@ -588,14 +588,14 @@ img {
   margin-bottom: 50px;
 }
 
-.our-team__title {
+.our-team__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: var(--fonts-title-color);
 }
 
-.our-team__title:not(:last-child) {
+.our-team__subtitle:not(:last-child) {
   padding: 30px 0px 10px 0px;
 }
 
@@ -617,8 +617,8 @@ img {
   padding: 0px 0px 0px 0px;
 }
 
-.our-team__icons__link:hover, .our-team__icons__link:hover .icon-link,
-.our-team__icons__link:focus, .our-team__icons__link:focus .icon-link {
+.our-team-icons__link:hover, .our-team-icons__link:hover .icon-link,
+.our-team-icons__link:focus, .our-team-icons__link:focus .icon-link {
   background-color: var(--brand-color);
   fill: var(--white-color);
 }
@@ -630,7 +630,7 @@ img {
   transition: color var(--transition-color);
 }
 
-.our-team__icons__item {
+.our-team-icons__item {
   margin-right: 10px;
 }
 
@@ -638,7 +638,7 @@ img {
   display: flex;
 }
 
-.our-team__icons__link {
+.our-team-icons__link {
   display: block;
   padding: 12px;
   width: 44px;
@@ -702,12 +702,12 @@ img {
   font-style: normal;
 }
 
-.footer__address__item:not(:last-child) {
+.footer__item:not(:last-child) {
   width: 230px;
   margin-bottom: 9px;
 }
 
-.footer__address__logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
   color: var(--white-color);
@@ -737,12 +737,12 @@ img {
   display: flex;
 }
 
-.footer__add-to-us__title {
+.footer-add-to-us__title {
   width: 144px;
   height: 16px;
 }
 
-.footer__add-to-us__link {
+.footer-add-to-us__link {
   display: block;
   padding: 12px;
   width: 44px;
@@ -751,15 +751,15 @@ img {
   color: var(--white-color);
   background: rgba(255, 255, 255, 0.1);
 }
-.footer__add-to-us__link:hover, .footer__add-to-us__link:focus {
+.footer-add-to-us__link:hover, .footer-add-to-us__link:focus {
   background-color: var(--brand-color);
 }
 
-.footer__add-to-us__list {
+.footer-add-to-us__list {
   display: flex;
 }
 
-.footer__add-to-us__title {
+.footer-add-to-us__title {
   margin-bottom: 20px;
 }
 
@@ -768,7 +768,7 @@ img {
   margin-right: 88px;
 }
 
-.footer__add-to-us__item {
+.footer-add-to-us__item {
   margin-right: 10px;
 }
 
@@ -786,7 +786,7 @@ img {
   padding-top: 12px;
 }
 
-.footer__sign-in__title {
+.footer-sign-in__title {
   margin-bottom: 20px;
 }
 

@@ -13,12 +13,12 @@
      font-style: normal;
  }
 
- .footer__address__item:not(:last-child){
+ .footer__item:not(:last-child){
     width: 230px;
      margin-bottom: 9px;
  }
 
- .footer__address__logo{
+ .footer__logo{
     display: block;
     margin-bottom: 20px;
   color:var(--white-color);
