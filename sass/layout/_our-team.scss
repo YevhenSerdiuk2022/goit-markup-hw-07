@@ -24,23 +24,18 @@
 .our-team__elements{
     padding: 0px 0px 0px 0px;
 }
-.our-team-icons__link:hover,.our-team-icons__link:hover .icon-link,
-.our-team-icons__link:focus,.our-team-icons__link:focus .icon-link {
+.our-team-icons__link:hover,.our-team-icons__link:hover .social__icon-link,
+.our-team-icons__link:focus,.our-team-icons__link:focus .social__icon-link {
     background-color:var(--brand-color);
     fill: var(--white-color);
 }
-.icon-link{
+.social__icon-link{
     width: 20px;
     height:20px;
    fill: var(--fons-icon-color);
  transition: color var(--transition-color);
 }
-// .social--icon-link{
-//     width: 20px;
-//     height:20px;
-//    fill: var(--fons-icon-color);
-//  transition: color var(--transition-color);
-// }
+
 .our-team-icons__item{
     margin-right: 10px;
 }
