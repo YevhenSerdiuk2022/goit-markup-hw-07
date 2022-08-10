@@ -23,38 +23,32 @@
 }
 .our-team__elements{
     padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 16px;
+
 }
-.our-team-icons__link:hover,.our-team-icons__link:hover .social__icon-link,
-.our-team-icons__link:focus,.our-team-icons__link:focus .social__icon-link {
+.social__link:hover,.social__link:hover .social__icon-link,
+.social__link:focus,.social__link:focus .social__icon-link {
     background-color:var(--brand-color);
     fill: var(--white-color);
 }
 .social__icon-link{
     width: 20px;
     height:20px;
-   fill: var(--fons-icon-color);
- transition: color var(--transition-color);
+    fill: var(--fons-icon-color);
+    transition: color var(--transition-color);
 }
 
-.our-team-icons__item{
-    margin-right: 10px;
-}
+
 .our-team__list{
     display: flex;   
   
  }
- .our-team-icons__link{
-     display: block;
-     padding: 12px;
-     width: 44px;
-     height:44px;
-     border-radius: 50%;
-     color: var(--fonts-color);
- }
- 
- .icons{
- display: flex;
- margin-bottom: 30px;
- justify-content: center;
- 
+
+ .our-team-icons{
+    
+    margin-bottom: 30px;
+    justify-content: center;
  } 

@@ -2,14 +2,8 @@
     width: 144px;
     height: 16px;
 }
-
-
- .social__link{
-    display: block;
-    padding: 12px;
-    width: 44px;
-    height:44px;
-    border-radius: 50%;
+.footer__link-view{
+   
     color: var(--white-color);
     background: rgba(255, 255, 255, 0.1);
     &:hover,
@@ -19,6 +13,14 @@
      }
 }
 
+.social__link{
+    display: block;
+    padding: 12px;
+    width: 44px;
+    height:44px;
+    border-radius: 50%;
+    color: var(--fonts-color);
+}
 .social{
     display: flex;
 }

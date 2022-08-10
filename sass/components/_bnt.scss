@@ -1,4 +1,4 @@
-.footer__btn{
+.contact-form__btn{
     max-width: 200px;
     display: block;
     position: relative;
@@ -15,13 +15,13 @@
     
     
 }
-.btn-link{ 
+.contact-form__btn-icon{ 
     position: absolute;
     top: 50%;
     right: 12%;
     transform: translateY(-50%);
 } 
-.btn:hover, .btn:focus{
+.contact-form__btn:hover, .contact-form__btn:focus{
     background:#085fa7;
 }
 

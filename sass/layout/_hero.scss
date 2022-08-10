@@ -16,13 +16,13 @@
         background-size: cover;
 
 }
-.title-block_text{
+.hero__title{
     width: 693px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
 }
-.title-block_text{
+.title{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -47,8 +47,3 @@
    
 }
 
- .button-menu_blue{
-    background: var(--brand-color);
-
-    color: var(--white-color);
- }

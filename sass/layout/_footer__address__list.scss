@@ -1,15 +1,15 @@
 
-.primary-clients-list{
+.primary-clients__list{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.primary-clients-item{
+.primary-clients__item{
     width: calc((100% - 150px)/6);
     min-height: 92px;
    
 }
-.primary-clients-item-link{
+.primary-clients__link{
     border: 1px solid #AFB1B8;
     border-radius: 4px;
    display: flex;
@@ -19,11 +19,11 @@
    color: var(--fons-icon-color);
    fill: var(--fons-icon-color);
 }
-.clients-link{
+.primary-clients__icon{
     display: block;
     transition: color var(--transition-color);
 }
-.primary-clients-item-link:hover, .primary-clients-item-link:focus{
+.primary-clients__link:hover, .primary-clients__link:focus{
     border: 1px solid var(--brand-color);
     fill: var(--brand-color);
    

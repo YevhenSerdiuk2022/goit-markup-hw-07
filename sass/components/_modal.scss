@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
-.close-bnt{
+.modal__close-bnt{
   position: absolute;
   top: 8px;
   right: 8px;
@@ -39,14 +39,14 @@
     color: #212121;
 }
 
-  .contact-form-input:focus, .contact-form-message:focus {
+  .contact-form__input-modal:focus, .contact-form__message:focus {
     outline: none;
     border-color: var(--brand-color);
   }
-  .contact-form-input:focus + .contact-form-icon {
+  .contact-form__input-modal:focus + .contact-form__icon {
     fill: var(--brand-color);
   }
-.contact-form-element-desc {
+.contact-form__element-desc {
     display: block;
     font-size: 12px;
     line-height: 1.2;
@@ -54,7 +54,7 @@
     color: #757575;
     margin-bottom: 4px;
   }
-  .contact-form-message::placeholder {
+  .contact-form__message::placeholder {
     
     font-size: 12px;
     line-height: 1.2;
@@ -62,12 +62,12 @@
     color: rgba(117, 117, 117, 0.5);
 
 }
-  .contact-form-input-wrapper {
+  .contact-form__wrapper {
     position: relative;
     display: block;
   }
   
-.contact-form-input {
+.contact-form__input-modal{
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -77,7 +77,7 @@
     margin-bottom: 10px;
     transition: border-color var(--transition-color);
   }
-  .contact-form-icon {
+  .contact-form__icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -86,7 +86,7 @@
       
     transition: background-color var(--transition-color);
   }
-  .contact-form-message {
+  .contact-form__message {
     width: 100%;
     height: 100px;
     resize: none;
@@ -98,7 +98,7 @@
     letter-spacing: 0.01em;
     transition: border-color var(--transition-color);
   }
-  .contact-form-checkbox-desc {
+  .contact-form__checkbox-desc {
     margin-top: 14px;
     display: inline-block;
     align-items:center;
@@ -108,7 +108,7 @@
     letter-spacing: 0.03em;
     padding-left: 38px;
   }
-  .contact-form-checkbox-desc::before {
+  .contact-form__checkbox-desc::before {
     display: block;
     position: absolute;
     top: 7px;
@@ -130,16 +130,16 @@
     top: 7px;
     left: 13px;
   }
-  .contact-form-checkbox:checked + .contact-form-checkbox-desc::before {
+  .contact-form__checkbox:checked + .contact-form__checkbox-desc::before {
     background-color: var(--brand-color);
     transition: background-color var(--transition-color);
     border: transparent;
   }
-  .contact-form-checkbox:focus + .contact-form-checkbox-desc::before {
+  .contact-form__checkbox:focus + .contact-form__checkbox-desc::before {
     outline: 2px solid rgba(0, 0, 255, 0.5);
     transition: background-color var(--transition-color);
   }
-  .contact-form-checkbox-desc-color{
+  .contact-form__checkbox-desc-color{
     color: var(--brand-color);
     text-decoration: underline;
     text-underline-offset: 2px;
