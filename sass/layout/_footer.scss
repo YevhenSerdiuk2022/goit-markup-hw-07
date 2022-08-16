@@ -1,10 +1,10 @@
 .footer{
     background-color: var(--fon-color);
+    &{
+        padding: 60px 0;
+    }
 }
-.footer{
-    padding: 60px 0;
-}
- 
+
 .footer__address{
     margin-right: 70px;
     width: 231px;
@@ -33,10 +33,11 @@
 .footer-grey{
     color: var(--fonts-color);
     transition: color var(--transition-color);
+    &:hover{
+        color: var(--brand-color);
+    }
 }
-.footer-grey:hover{
-    color: var(--brand-color);
-}
+
 .footer__link-color{
     fill: var(--white-color);
 }

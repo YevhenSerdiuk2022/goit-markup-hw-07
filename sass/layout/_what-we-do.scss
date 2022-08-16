@@ -3,18 +3,19 @@
 }
 .what-we-do__wrapper{
     position: relative;
+    &::before{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        left: 0;
+        bottom: 0;
+       opacity: 1;
+        background: rgba(47, 48, 58, 0.8);
+    }
 }
-.what-we-do__wrapper::before{
-    content: '';
-    display: inline-block;
-    position: absolute;
-    width: 370px;
-	height: 70px;
-	left: 0;
-	bottom: 0;
-   opacity: 1;
-    background: rgba(47, 48, 58, 0.8);
-}
+
 .what-we-do__subtitle{
     color: var(--white-color);
     display: block;

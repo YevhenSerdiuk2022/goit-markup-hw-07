@@ -18,13 +18,13 @@
    min-height: 92px;
    color: var(--fons-icon-color);
    fill: var(--fons-icon-color);
+   &:hover, &:focus{
+    border: 1px solid var(--brand-color);
+    fill: var(--brand-color);
+   
+}
 }
 .primary-clients__icon{
     display: block;
     transition: color var(--transition-color);
-}
-.primary-clients__link:hover, .primary-clients__link:focus{
-    border: 1px solid var(--brand-color);
-    fill: var(--brand-color);
-   
 }

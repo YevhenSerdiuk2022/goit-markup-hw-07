@@ -8,7 +8,11 @@
     cursor: pointer;
     padding: 6px 22px;
    transition: color var(--transition-color);
+  &:hover,&:focus{
+    background: var(--brand-color);
+    color: var(--white-color);
    
+ }
 }
 .exmaple__filter{
     display: flex;
@@ -18,18 +22,30 @@
 .exmaple-filter__item:not(:last-child){
     margin: 0px 8px 0px 0px;
 }
-.button-blue:hover, .button-blue:focus, .button-blue:active,
+
 .contact-form-submit:hover, .contact-form-submit:focus,.contact-form-submit:focus{
     background:#085fa7;
    
 }
 
- .button-menu:hover,.button-menu:focus{
-    background: var(--brand-color);
-    color: var(--white-color);
-   
- }
+
  .button-menu--color-active{
     background-color: var(--brand-color);
     color:var(--white-color);
 }
+.button-blue{
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color:var(--white-color);
+    background: var(--brand-color);
+    padding: 10px 32px;
+    cursor: pointer; 
+    transition: background-color var(--transition-color), color var(--transition-color);
+    &:hover, &:focus, &:active{
+        background:#085fa7;
+    }
+}
+

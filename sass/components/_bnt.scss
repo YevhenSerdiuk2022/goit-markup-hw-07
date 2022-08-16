@@ -13,7 +13,9 @@
     cursor: pointer; 
     transition: background-color var(--transition-color);
     
-    
+    &:hover, &:focus{
+        background:#085fa7;
+    }
 }
 .contact-form__btn-icon{ 
     position: absolute;
@@ -21,8 +23,6 @@
     right: 12%;
     transform: translateY(-50%);
 } 
-.contact-form__btn:hover, .contact-form__btn:focus{
-    background:#085fa7;
-}
+
 
 
