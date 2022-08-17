@@ -14,51 +14,79 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.min.css" />
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <title>WebStudio</title>
   </head>
 
   <body>
-       <!--Шапка сайта-->
-       <header class="header">
-        <div class="container header__wrapper">
-            <a href="#" aria-label="WebStudio " class="logo logo--blue header__logo"><span>Web</span>Studio</a>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__item ">
-                            <a href="./index.html" class=" link-menu  header__link">Студия</a>
-                        </li>
-                        <li class="header__item">
-                            <a href="./portfolio.html" class=" link-menu link-menu--active header__link">Портфолио</a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class=" link-menu  header__link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="header__address">
-                    <li class="header-address__item">
-                        <a href="mailto:info@devstudio.com" class=" link-menu header-address__link  header-address__link--grey" ><svg class="link-icon"  width="16" height="12">
-                            <use href="./img/icon/sprite.svg#icon-envelope" class="icon" ></use>
-                        </svg>info@devstudio.com</a>
-                    </li>
-                    <li class="header-address__item">
-                        <a href="tel:+380961111111" class="link-menu header-address__link  header-address__link--grey"><svg class="link-icon" width="10" height="16">
-                            <use href="./img/icon/sprite.svg#icon-smartphone" ></use>
-                        </svg>+38 096 111 11 11</a>
-                    </li>
-                </ul>
-        </div>
+    <!--Шапка сайта-->
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" aria-label="WebStudio " class="logo header__logo"
+          ><span class="logo__part">Web</span>Studio</a
+        >
+        <nav class="sait-nav">
+          <ul class="sait-nav__list">
+            <li class="sait-nav__item">
+              <a
+                href="./index.html"
+                class="sait-nav__link sait-nav__link--hover"
+                >Студия</a
+              >
+            </li>
+            <li class="sait-nav__item">
+              <a
+                href="./portfolio.html"
+                class="sait-nav__link sait-nav__link--active sait-nav__link--hover"
+                >Портфолио</a
+              >
+            </li>
+            <li class="sait-nav__item">
+              <a href="#" class="sait-nav__link sait-nav__link--hover"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contacts__link contacts__link--hover"
+              ><svg class="contacts__icon" width="16" height="12">
+                <use
+                  href="./img/icon/sprite.svg#icon-envelope"
+                  class="icon"
+                ></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a
+              href="tel:+380961111111"
+              class="contacts__link contacts__link--hover"
+              ><svg class="contacts__icon" width="10" height="16">
+                <use href="./img/icon/sprite.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main class="main">
       <!--Меню-->
       <section class="section exmaple">
-        <div class="container ">
+        <div class="container">
           <ul class="exmaple__filter">
             <li class="exmaple-filter__item">
-              <button type="button" class="button-menu button-menu--color-active">Все</button>
+              <button
+                type="button"
+                class="button-menu button-menu--color-active"
+              >
+                Все
+              </button>
             </li>
             <li class="exmaple-filter__item">
               <button type="button" class="button-menu">Веб-сайты</button>
@@ -109,17 +137,16 @@
                     hieght="294"
                   />
                   <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">
-                  Постер New Orlean vs Golden Star
-                </h3>
-                <p class="elements__title-item">Дизайн</p>
+                  <h3 class="exmaple__item-title">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="elements__title-item">Дизайн</p>
                 </div>
               </a>
             </li>
@@ -132,18 +159,17 @@
                     width="370"
                     hieght="294"
                   />
-                 
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Ресторан Seafood</h3>
-                <p class="elements__title-item">Приложение</p>
-                  </div>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">Ресторан Seafood</h3>
+                  <p class="elements__title-item">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="exmaple__item">
@@ -155,17 +181,16 @@
                     width="370"
                     hieght="294"
                   />
-                 
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Проект Prime</h3>
-                <p class="elements__title-item">Маркетинг</p>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">Проект Prime</h3>
+                  <p class="elements__title-item">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -178,18 +203,17 @@
                     width="370"
                     hieght="294"
                   />
-                
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Проект Boxes</h3>
-                <p class="elements__title-item">Приложение</p>
-                  </div>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">Проект Boxes</h3>
+                  <p class="elements__title-item">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="exmaple__item">
@@ -201,18 +225,19 @@
                     width="370"
                     hieght="294"
                   />
-                  
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Inspiration has no Borders</h3>
-                <p class="elements__title-item">Веб-сайт</p>
-                  </div>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="elements__title-item">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="exmaple__item">
@@ -224,18 +249,17 @@
                     width="370"
                     hieght="294"
                   />
-                  
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Издание Limited Edition</h3>
-                <p class="elements__title-item">Дизайн</p>
-                  </div>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">Издание Limited Edition</h3>
+                  <p class="elements__title-item">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="exmaple__item">
@@ -247,18 +271,17 @@
                     width="370"
                     hieght="294"
                   />
-                  
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Проект LAB</h3>
-                <p class="elements__title-item">Маркетинг</p>
-                  </div>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">Проект LAB</h3>
+                  <p class="elements__title-item">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="exmaple__item">
@@ -270,74 +293,112 @@
                     width="370"
                     hieght="294"
                   />
-                 
-                    <p class="exmaple-overlay">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
-                  </div>
-                  <div class="exmaple__box-desc">
-                <h3 class="exmaple__item-title">Growing Business</h3>
-                <p class="elements__title-item">Приложение</p>
-                  </div>
+
+                  <p class="exmaple-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="exmaple__box-desc">
+                  <h3 class="exmaple__item-title">Growing Business</h3>
+                  <p class="elements__title-item">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
-     <!--Футер-->
-     <footer class="footer">
-      <div class="container ">
-          <div class="footer__wrapper">
-              <address class="footer__address">
-                <a href="" aria-label="WebStudio link" class="logo logo--blue footer__logo"><span>Web</span>Studio</a>
-                  <ul class="footer__list">
-                      <li class="foote__item">
-                          <a href="https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank" rel="noopener nofollow noreferrer" class="footer-white">г. Киев, пр-т Леси Украинки, 26</a>
-                      </li>
-                      <li class="footer__item">
-                          <a href="mailto:info@devstudio.com" class="footer-grey">info@devstudio.com</a>
-                      </li>
-                      <li class="footer__item">
-                          <a href="tel:+380961111111" class="footer-grey">+38 096 111 11 11</a>
-                      </li>
-                  </ul>
-              </address>
-              <div class="footer__add-to-us">
-                  <p class="footer__title upercase-title">присоединяйтесь</p>
-                  <ul class="social social--list">
-                      <li class="social__item"><a href="#" class="social__link footer__link-view"><svg class="social__icon-link footer__link-color">
-                          <use href="./img/icon/sprite.svg#icon-instagram" ></use>
-                      </svg></a></li>
-                      <li class="social__item"><a href="#" class="social__link footer__link-view"><svg class="social__icon-link footer__link-color">
-                          <use href="./img/icon/sprite.svg#icon-twitter" ></use>
-                      </svg></a></li>
-                      <li class="social__item"><a href="#" class="social__link footer__link-view"><svg class="social__icon-link footer__link-color">
-                          <use href="./img/icon/sprite.svg#icon-facebook" ></use>
-                      </svg></a></li>
-                      <li class="social__item"><a href="#" class="social__link footer__link-view"><svg class="social__icon-link footer__link-color">
-                          <use href="./img/icon/sprite.svg#icon-linkedin" ></use>
-                      </svg></a></li>
-                  </ul>   
+    <!--Футер-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <address class="footer__address">
+            <a href="" aria-label="WebStudio link" class="logo footer__logo"
+              ><span class="logo__part">Web</span>Studio</a
+            >
+            <ul class="footer__list">
+              <li class="foote__item">
+                <a
+                  href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  class="footer-white"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="mailto:info@devstudio.com" class="footer-grey"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="tel:+380961111111" class="footer-grey"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="footer__add-to-us">
+            <p class="footer__title upercase-title">присоединяйтесь</p>
+            <ul class="social social--list">
+              <li class="social__item">
+                <a href="#" class="social__link footer__link-view"
+                  ><svg class="social__icon-link footer__link-color">
+                    <use href="./img/icon/sprite.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link footer__link-view"
+                  ><svg class="social__icon-link footer__link-color">
+                    <use href="./img/icon/sprite.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link footer__link-view"
+                  ><svg class="social__icon-link footer__link-color">
+                    <use href="./img/icon/sprite.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link footer__link-view"
+                  ><svg class="social__icon-link footer__link-color">
+                    <use href="./img/icon/sprite.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__sign-in">
+            <p class="footer-sign-in__title upercase-title">
+              Подпишитесь на рассылку
+            </p>
+            <form class="contact-form">
+              <label for="subscribe" class="visually-hidden"
+                >Enter your mail</label
+              >
+              <div class="contact-form__wrapper">
+                <input
+                  id="subscribe"
+                  class="contact-form__input"
+                  type="email"
+                  name="user-mail"
+                  placeholder="E-mail"
+                  required
+                />
+
+                <button class="contact-form__btn">
+                  Подписаться<svg
+                    class="social__icon-link contact-form__btn-icon"
+                  >
+                    <use href="./img/icon/sprite.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
               </div>
-              <div class="footer__sign-in">
-                  <p class="footer-sign-in__title upercase-title">Подпишитесь на рассылку</p>
-                      <form class="contact-form">
-                          <label  for="subscribe" class="visually-hidden">Enter your mail</label>
-                          <div  class="contact-form__wrapper">
-                              <input id="subscribe" class="contact-form__input" type="email" name="user-mail" placeholder="E-mail" required/>
-                             
-                              <button class="contact-form__btn">Подписаться<svg class="social__icon-link contact-form__btn-icon">
-                                  <use href="./img/icon/sprite.svg#icon-icon-send" ></use>
-                              </svg></button>
-                          </div>
-                      </form>
-              </div>
-          </div>         
+            </form>
+          </div>
+        </div>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
